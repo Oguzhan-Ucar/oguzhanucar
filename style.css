@@ -1,0 +1,268 @@
+* {
+  margin: 1;
+  padding: 0;
+}
+
+body {
+  font-family: "Audiowide";
+}
+
+#header {
+  background-color: black;
+  color: white;
+  border-bottom: 5px solid red;
+}
+
+#header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+span {
+  color: red;
+}
+
+#navigation ul {
+  display: flex;
+}
+
+#navigation li {
+  padding: 0 20px;
+  list-style: none;
+}
+
+#main {
+  background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.6)),
+    url("./images/banner.jpg");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#main h1 {
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+
+#main p {
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+
+#about {
+  background-color: black;
+  padding: 20px;
+}
+
+#about h2 {
+  color: red;
+  text-align: center;
+}
+
+#about p {
+  color: white;
+}
+
+#contact {
+  background-color: black;
+}
+
+#contact h2 {
+  color: red;
+  text-align: center;
+}
+
+#contact p {
+  color: white;
+  text-align: center;
+}
+
+#tools{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+#tools2{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  align-items: center;
+}
+
+#tools3{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+  /* margin-left: 90px; */
+  align-items: center;
+  text-align: center;
+}
+
+#contact{
+  background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.6)),
+    url("https://picsum.photos/1600/900");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#about{
+  background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.6)),
+    url("https://picsum.photos/1600/900");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contacttools{
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  align-items: center;
+}
+
+#githubimage{
+  width: 70px;
+  border-radius: 50%;
+}
+
+#linkedinimage{
+  width: 80px;
+}
+
+#linkedinimage:hover{
+  width: 100px;
+}
+
+#githubimage:hover{
+width: 100px;
+}
+
+#githubp{
+  margin-top:3px
+}
+
+#linkedinp{
+  margin-top:0px
+}
+
+#telephonediv{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+ margin-top: 200px;
+}
+
+#telephone{
+  width:40px
+}
+
+
+#contactdiv{
+  margin-top: 200px;
+}
+
+#projectsmain{
+  background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.6)),
+  url("https://picsum.photos/1600/900");
+background-size: cover;
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.navhover:hover{
+color: white;
+font-size: 17px;
+}
+
+.navhover:active {
+  color: red;
+}
+
+.navhover{
+  color: blue;
+}
+
+#githubimagediv{
+  margin-top:5px
+}
+
+h2{
+  color: blue
+}
+
+
+
+#projects1{
+  display: flex;
+  gap: 200px;
+  margin-top: 10px;
+  
+}
+
+li{
+  
+  text-align: center;
+  list-style: none;
+  color: white
+}
+
+li a{
+  color: white;
+}
+
+li a:hover{
+  color: blue;
+  font-size: 20px;
+}
+
+#projects2{
+  display: flex;
+  gap: 200px; 
+  margin-top: 50px; 
+}
+
+#telephonenumber:hover{
+  font-size: 20px;
+  color: blue;
+}
+
+#bootstrapproject{
+  margin-left: 50px;
+}
+
+#sassproject{
+  margin-left: 100px;
+}
+
+#muidiv{
+  margin-right: -10px;
+margin-left: -10px;
+}
+
+#reduxdiv{
+  margin-left: -25px; 
+  margin-right: -25px;
+}
